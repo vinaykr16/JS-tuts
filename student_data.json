@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Kumar",
+    "age":78,
+    "city":"Goa"
+  },
+  {
+    "name":"Kumar sanu",
+    "age":78,
+    "city":"Goa"
+  },
+  {
+    "name":"Sonu nigam",
+    "age":78,
+    "city":"Goa"
+  },
+  {
+    "name":"Alka yagnik",
+    "age":78,
+    "city":"Goa"
+  }
+]

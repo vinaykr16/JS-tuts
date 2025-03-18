@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    //async function always return a promise . Async /await is alternative to promise.
+async function test() {
+  console.log("2: Msg");
+  //await holds compilation for current line and continue execution next lines.
+  //After compiling all code, then await code will run
+  const response=await fetch("student_data.json");
+  const students=await response.json();
+  return students;
+  // console.log("4: Msg");
+}
+
+
+console.log("1: Msg");
+let a=test();
+console.log("5: Msg");
+console.log(a);
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
